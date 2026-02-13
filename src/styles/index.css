@@ -89,16 +89,11 @@ a:hover {
 .header-brand:hover { opacity: 0.9; color: var(--text-primary); }
 
 .header-logo {
-  width: 36px;
-  height: 36px;
-  background: var(--accent);
-  border-radius: 8px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
-  font-size: 18px;
-  color: var(--bg-primary);
   flex-shrink: 0;
 }
 
@@ -551,14 +546,14 @@ a:hover {
 .article-content {
   flex: 1;
   min-width: 0;
-  padding: 36px 56px;
+  padding: 20px 56px 36px;
   max-width: 820px;
 }
 
 .article-breadcrumb {
   font-size: 13px;
   color: var(--text-muted);
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .article-breadcrumb a {
   color: var(--accent);
@@ -579,9 +574,9 @@ a:hover {
 .article-subtitle {
   font-size: 16px;
   color: var(--text-muted);
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   line-height: 1.5;
-  padding-bottom: 24px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -603,17 +598,22 @@ a:hover {
 .article-body h2 {
   font-size: 22px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   margin-top: 40px;
   margin-bottom: 16px;
   padding-top: 16px;
   scroll-margin-top: calc(var(--header-height) + 16px);
 }
 
+.article-body > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .article-body h3 {
   font-size: 18px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   margin-top: 32px;
   margin-bottom: 12px;
   scroll-margin-top: calc(var(--header-height) + 16px);
@@ -786,8 +786,8 @@ a:hover {
 }
 
 .chatbot-message.assistant .chatbot-bubble {
-  background: var(--bg-tertiary);
-  color: var(--text-secondary);
+  background: #e8ecf1;
+  color: #1a202c;
   border-top-left-radius: 4px;
 }
 
@@ -805,12 +805,12 @@ a:hover {
 .chatbot-sources {
   margin-top: 8px;
   padding-top: 8px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .chatbot-sources-label {
   font-size: 11px;
-  color: var(--text-muted);
+  color: #4a5568;
   font-weight: 600;
   margin-bottom: 4px;
 }
@@ -818,7 +818,7 @@ a:hover {
 .chatbot-source-link {
   display: block;
   font-size: 12px;
-  color: var(--accent);
+  color: #0e7c6b;
   padding: 2px 0;
 }
 .chatbot-source-link:hover {
