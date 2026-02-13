@@ -50,7 +50,11 @@ export default function Header({ articles, onToggleSidebar }) {
         </svg>
       </button>
       <Link to="/" className="header-brand">
-        <div className="header-logo">M</div>
+        <div className="header-logo">
+          <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 80 L10 35 L30 55 L50 15 L70 55 L90 35 L90 80" stroke="#4A9EE8" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          </svg>
+        </div>
         <div>
           <div className="header-title">Advisor Education Hub</div>
           <div className="header-subtitle">Powered by Monark Markets</div>
