@@ -6,23 +6,23 @@ categoryTitle: "Alternative Investment Fundamentals"
 order: 2
 ---
 
-## What Are Registered Funds and How They Differ from Private Funds
+# What Are Registered Funds and How They Differ from Private Funds
 
 Alternative investments have traditionally been the domain of institutional investors and ultra-high-net-worth individuals accessing private funds with high minimums, long lockups, and limited oversight. Registered funds are changing that equation, bringing alternative investment strategies to a broader investor base through structures designed for accessibility, transparency, and regulatory protection.
 
 Understanding the difference between registered and private funds helps you determine which structure best serves your clients' needs and circumstances.
 
-### The Fundamental Difference
+## The Fundamental Difference
 
 The core distinction comes down to regulatory framework and investor protections.
 
-Private funds operate under exemptions from securities registration requirements—typically Regulation D or Section 3(c)(1) and 3(c)(7) of the Investment Company Act of 1940. These exemptions allow fund managers flexibility in strategy, fees, and operations, but limit who can invest (typically accredited investors or qualified purchasers) and impose minimal disclosure requirements.
+**Private funds** operate under exemptions from securities registration requirements—typically Regulation D or Section 3(c)(1) and 3(c)(7) of the Investment Company Act of 1940. These exemptions allow fund managers flexibility in strategy, fees, and operations, but limit who can invest (typically accredited investors or qualified purchasers) and impose minimal disclosure requirements.
 
-Registered funds are securities registered with the SEC under the Securities Act of 1933 and regulated under the Investment Company Act of 1940. This registration subjects them to comprehensive disclosure requirements, operational standards, and investor protections.
+**Registered funds** are securities registered with the SEC under the Securities Act of 1933 and regulated under the Investment Company Act of 1940. This registration subjects them to comprehensive disclosure requirements, operational standards, and investor protections.
 
-**The trade-off is straightforward:** registered funds sacrifice some operational flexibility in exchange for broader accessibility and standardized investor protections.
+The trade-off is straightforward: registered funds sacrifice some operational flexibility in exchange for broader accessibility and standardized investor protections.
 
-### Common Registered Fund Structures for Alternatives
+## Common Registered Fund Structures for Alternatives
 
 Several registered fund structures provide access to alternative strategies:
 
@@ -42,7 +42,7 @@ Similar to interval funds, tender offer funds periodically offer to repurchase s
 
 Tender offers might occur quarterly, semi-annually, or opportunistically when the manager determines liquidity is available. This gives managers more control over capital flows but less predictability for investors.
 
-Business Development Companies (BDCs)
+**Business Development Companies (BDCs)**
 
 BDCs are specialized registered investment companies that invest in small and mid-sized private companies, primarily through debt investments. Most BDCs trade on stock exchanges, providing daily liquidity.
 
@@ -58,7 +58,7 @@ These funds offer daily liquidity but trade at market prices that may diverge fr
 
 Some mutual funds and ETFs registered under the 1940 Act employ alternative strategies—long-short equity, managed futures, event-driven—while maintaining daily liquidity. These "liquid alts" provide alternatives exposure without lockups, though return profiles may differ from pure private funds due to liquidity constraints.
 
-### Key Differences in Practice
+## Key Differences in Practice
 
 Understanding how registered and private funds differ operationally helps you set appropriate client expectations:
 
@@ -66,9 +66,8 @@ Understanding how registered and private funds differ operationally helps you se
 
 Private funds typically restrict investment to:
 
-Accredited investors (income >$200K or net worth >$1M excluding primary residence)
-
-**Qualified purchasers (investments >$5M) for 3(c)(7) funds**
+- Accredited investors (income >$200K or net worth >$1M excluding primary residence)
+- Qualified purchasers (investments >$5M) for 3(c)(7) funds
 
 Registered funds are available to all investors meeting minimum investment requirements, typically $2,500-$25,000. This democratization makes alternatives accessible to a broader client base.
 
@@ -96,31 +95,22 @@ The total economic cost may be similar, but registered fund fee disclosure is mo
 
 This is where differences become most significant:
 
-Private Funds:
+**Private Funds:**
 
-**Limited disclosure requirements, often just annual audited financials**
+- Limited disclosure requirements, often just annual audited financials
+- Quarterly statements to investors
+- No required prospectus or standardized offering documents
+- Fewer restrictions on investment activities and conflicts of interest
 
-**Quarterly statements to investors**
+**Registered Funds:**
 
-**No required prospectus or standardized offering documents**
-
-**Fewer restrictions on investment activities and conflicts of interest**
-
-Registered Funds:
-
-**Detailed prospectus required, updated annually**
-
-**Statement of Additional Information (SAI) providing expanded disclosure**
-
-**Quarterly and annual reports to shareholders**
-
-Daily NAV calculation and publication (for daily liquidity funds)
-
-**Restrictions on affiliate transactions and conflicts**
-
-**Board of directors/trustees including independent members overseeing manager**
-
-**SEC examination and oversight**
+- Detailed prospectus required, updated annually
+- Statement of Additional Information (SAI) providing expanded disclosure
+- Quarterly and annual reports to shareholders
+- Daily NAV calculation and publication (for daily liquidity funds)
+- Restrictions on affiliate transactions and conflicts
+- Board of directors/trustees including independent members overseeing manager
+- SEC examination and oversight
 
 Clients receive substantially more information and protection with registered funds, though this comes with operational costs reflected in expense ratios.
 
@@ -140,7 +130,7 @@ Registered funds structured as corporations (like BDCs) issue simpler 1099-DIV f
 
 The tax treatment depends more on fund structure (partnership vs. corporation) than registered vs. private status, but registered funds often prioritize simplified tax reporting.
 
-### When Registered Funds Make Sense
+## When Registered Funds Make Sense
 
 Registered alternative funds work well for clients who:
 
@@ -164,7 +154,7 @@ Those frustrated by K-1 complexity may prefer registered funds structured as cor
 
 Clients dipping toes into alternatives may start with interval funds or BDCs offering some liquidity before committing to fully illiquid private funds.
 
-### When Private Funds Remain Preferable
+## When Private Funds Remain Preferable
 
 Private funds continue serving clients who:
 
@@ -188,31 +178,30 @@ Partnership structures offer tax planning opportunities (depreciation, tax credi
 
 Private funds can pursue opportunistic strategies, concentrated positions, and flexible capital deployment that registered fund restrictions prohibit.
 
-### The Convergence Trend
+## The Convergence Trend
 
 The line between registered and private funds is blurring. High-quality alternative managers increasingly offer both:
 
-Private funds for institutional investors and wealthy individuals seeking maximum returns with full illiquidity
-
-Registered interval funds or BDCs bringing similar strategies to broader audiences with modified liquidity terms
+- Private funds for institutional investors and wealthy individuals seeking maximum returns with full illiquidity
+- Registered interval funds or BDCs bringing similar strategies to broader audiences with modified liquidity terms
 
 This trend democratizes alternatives access while allowing clients to choose structures matching their liquidity needs and regulatory preferences.
 
 Many managers find their registered and private strategies perform similarly over time, suggesting the structures can coexist effectively.
 
-### Making the Choice
+## Making the Choice
 
 The decision between registered and private alternative funds isn't binary. Consider:
 
-**Portfolio Allocation:** Use registered funds for initial alternatives exposure or clients with smaller allocations. Graduate to private funds as allocations grow and conviction increases.
+**Portfolio Allocation**: Use registered funds for initial alternatives exposure or clients with smaller allocations. Graduate to private funds as allocations grow and conviction increases.
 
-**Strategy Fit:** Some strategies (private credit, real estate debt) work well in interval funds. Others (venture capital, opportunistic real estate) require full illiquidity of private structures.
+**Strategy Fit**: Some strategies (private credit, real estate debt) work well in interval funds. Others (venture capital, opportunistic real estate) require full illiquidity of private structures.
 
-**Client Circumstances:** Liquidity needs, tax situations, minimum investment capacity, and regulatory preferences drive individual decisions.
+**Client Circumstances**: Liquidity needs, tax situations, minimum investment capacity, and regulatory preferences drive individual decisions.
 
-**Manager Quality:** Choose the best manager for the strategy regardless of structure. A top-tier registered fund may outperform a mediocre private fund.
+**Manager Quality**: Choose the best manager for the strategy regardless of structure. A top-tier registered fund may outperform a mediocre private fund.
 
-### The Bottom Line
+## The Bottom Line
 
 Registered alternative funds make institutional-quality strategies accessible to a broader investor base through standardized structures, regulatory protections, and improved liquidity. They sacrifice some return potential and operational flexibility compared to private funds, but offer meaningful benefits for many clients.
 

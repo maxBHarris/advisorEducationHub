@@ -6,9 +6,9 @@ categoryTitle: "Asset Class Deep Dives"
 order: 1
 ---
 
-## PRIVATE EQUITY: INVESTOR EDUCATION TEAR SHEET
+# PRIVATE EQUITY: INVESTOR EDUCATION TEAR SHEET
 
-### What Private Equity Is and Why It Matters
+## What Private Equity Is and Why It Matters
 
 Private equity involves investing in companies that aren't publicly traded. PE firms raise capital from investors, use that capital to acquire companies, work to improve those businesses over 3-7 years, then sell them for a profit.
 
@@ -18,7 +18,7 @@ PE has historically outperformed public markets over the long term, though with 
 
 For advisors, PE represents a way to give clients access to a broader universe of companies and potentially higher returns in exchange for illiquidity and higher minimums.
 
-### Investment Structures and Vehicles
+## Investment Structures and Vehicles
 
 **Traditional Closed-End Funds**
 
@@ -42,37 +42,33 @@ Registered as 1940 Act funds, interval funds offer PE exposure with quarterly or
 
 These vehicles invest in multiple PE funds rather than directly in companies. They provide instant diversification across managers, strategies, and vintage years, but add an additional layer of fees.
 
-### Investment Strategies and Focus Areas
+## Investment Strategies and Focus Areas
 
 PE firms typically specialize in specific strategies:
 
-**Buyouts:** Acquiring controlling stakes in established companies, often using leverage. Buyout funds focus on operational improvements, strategic repositioning, and multiple expansion. This is the largest segment of PE by capital deployed.
+**Buyouts**: Acquiring controlling stakes in established companies, often using leverage. Buyout funds focus on operational improvements, strategic repositioning, and multiple expansion. This is the largest segment of PE by capital deployed.
 
-**Growth Equity:** Minority investments in mature companies seeking capital for expansion. Less leverage than buyouts, focusing on companies with proven business models ready to scale.
+**Growth Equity**: Minority investments in mature companies seeking capital for expansion. Less leverage than buyouts, focusing on companies with proven business models ready to scale.
 
-**Venture Capital:** Early-stage investments in high-growth potential startups. Higher risk and failure rates, but potentially outsized returns from successful companies.
+**Venture Capital**: Early-stage investments in high-growth potential startups. Higher risk and failure rates, but potentially outsized returns from successful companies.
 
-**Distressed/Special Situations:** Investing in companies facing financial or operational challenges. Requires specialized expertise in turnarounds and restructuring.
+**Distressed/Special Situations**: Investing in companies facing financial or operational challenges. Requires specialized expertise in turnarounds and restructuring.
 
-**Sector-Focused:** Some funds concentrate on specific industries (healthcare, technology, industrials) where they've built deep expertise and networks.
+**Sector-Focused**: Some funds concentrate on specific industries (healthcare, technology, industrials) where they've built deep expertise and networks.
 
 Understanding a fund's strategy helps you assess whether it aligns with your clients' risk tolerance and return objectives.
 
-### Due Diligence: What to Evaluate
+## Due Diligence: What to Evaluate
 
 **Track Record and Performance**
 
 Review the GP's historical returns across multiple fund vintages. Look at:
 
-**Net IRR (Internal Rate of Return) after all fees**
-
-TVPI (Total Value to Paid-In) showing total value created relative to capital invested
-
-DPI (Distributions to Paid-In) showing actual cash returned vs. unrealized gains
-
-**Performance relative to benchmarks and peers**
-
-**Consistency across economic cycles**
+- Net IRR (Internal Rate of Return) after all fees
+- TVPI (Total Value to Paid-In) showing total value created relative to capital invested
+- DPI (Distributions to Paid-In) showing actual cash returned vs. unrealized gains
+- Performance relative to benchmarks and peers
+- Consistency across economic cycles
 
 Be cautious of funds with limited track records or those showing only unrealized gains without distributions.
 
@@ -80,15 +76,11 @@ Be cautious of funds with limited track records or those showing only unrealized
 
 The investment team drives performance. Evaluate:
 
-**Years of experience in PE and relevant industries**
-
-**Team stability and turnover rates**
-
-**Deal sourcing capabilities and networks**
-
-**Operational expertise for value creation**
-
-Alignment through GP commitment (how much the team invests personally)
+- Years of experience in PE and relevant industries
+- Team stability and turnover rates
+- Deal sourcing capabilities and networks
+- Operational expertise for value creation
+- Alignment through GP commitment (how much the team invests personally)
 
 Strong teams have continuity, complementary skills, and skin in the game.
 
@@ -96,15 +88,11 @@ Strong teams have continuity, complementary skills, and skin in the game.
 
 Understand how the GP sources, evaluates, and manages investments:
 
-**Deal flow sources and competitive advantages**
-
-**Due diligence rigor and specialist resources**
-
-**Value creation playbooks and operational support**
-
-**Portfolio monitoring and reporting**
-
-**Exit strategy development**
+- Deal flow sources and competitive advantages
+- Due diligence rigor and specialist resources
+- Value creation playbooks and operational support
+- Portfolio monitoring and reporting
+- Exit strategy development
 
 Disciplined, repeatable processes produce more consistent results than one-off successes.
 
@@ -112,11 +100,9 @@ Disciplined, repeatable processes produce more consistent results than one-off s
 
 PE funds typically charge:
 
-**Management fees:** 1.5-2% annually on committed or invested capital
-
-**Carried interest (carry):** 20% of profits above a hurdle rate (often 8%)
-
-**Transaction and monitoring fees from portfolio companies**
+- Management fees: 1.5-2% annually on committed or invested capital
+- Carried interest (carry): 20% of profits above a hurdle rate (often 8%)
+- Transaction and monitoring fees from portfolio companies
 
 These fees compound over time. A fund with strong gross returns but excessive fees may underperform on a net basis.
 
@@ -124,19 +110,14 @@ These fees compound over time. A fund with strong gross returns but excessive fe
 
 Review key terms in the Limited Partnership Agreement:
 
-**Fund size and minimum investment**
+- Fund size and minimum investment
+- Investment period (typically 4-6 years)
+- Fund life (typically 10-12 years)
+- GP commitment requirement
+- Key person provisions
+- Clawback provisions protecting LPs
 
-Investment period (typically 4-6 years)
-
-Fund life (typically 10-12 years)
-
-**GP commitment requirement**
-
-**Key person provisions**
-
-**Clawback provisions protecting LPs**
-
-### Fee Structures and Economics
+## Fee Structures and Economics
 
 Understanding PE economics helps you evaluate whether returns justify the costs.
 
@@ -156,7 +137,7 @@ Most funds include a preferred return or hurdle rate—LPs receive all returns u
 
 GPs often charge portfolio companies transaction fees, monitoring fees, or directors' fees. Quality funds offset 50-100% of these fees against management fees owed by LPs. Without offsets, you're effectively paying double fees.
 
-### Risk Factors and Considerations
+## Risk Factors and Considerations
 
 **Illiquidity**
 
@@ -182,7 +163,7 @@ Most buyout funds use 50-70% debt in acquisitions. While leverage amplifies retu
 
 A single failed investment can significantly impact fund returns, especially in smaller funds with 10-15 companies. Larger funds with 30+ investments provide more diversification.
 
-### Tax Implications
+## Tax Implications
 
 PE funds structured as partnerships have specific tax considerations:
 
@@ -194,11 +175,11 @@ You'll receive Schedule K-1s annually, reporting your share of fund income, gain
 
 Income and gains flow through to your tax return annually, even if you haven't received distributions. You may owe taxes before receiving cash.
 
-Unrelated Business Taxable Income (UBTI)
+**Unrelated Business Taxable Income (UBTI)**
 
 If the fund uses leverage, tax-exempt entities (IRAs, foundations) may face UBTI, creating unexpected tax obligations.
 
-Qualified Small Business Stock (QSBS)
+**Qualified Small Business Stock (QSBS)**
 
 Some PE investments may qualify for QSBS treatment, potentially excluding up to 100% of gains from federal taxes. This is more common in growth equity and venture capital.
 
@@ -208,7 +189,7 @@ Most PE gains receive favorable long-term capital gains treatment since holding 
 
 Work with tax advisors familiar with partnership taxation to properly plan for these implications.
 
-### Client Suitability Assessment
+## Client Suitability Assessment
 
 Not every client is appropriate for PE investments. Consider:
 
@@ -232,7 +213,7 @@ PE involves company-specific risk, leverage risk, and illiquidity. Clients must 
 
 Clients should understand the commitment structure, J-curve effect (early negative returns as fees are paid before gains materialize), and the importance of vintage year diversification.
 
-### Portfolio Construction Considerations
+## Portfolio Construction Considerations
 
 **Allocation Sizing**
 
@@ -242,13 +223,10 @@ Institutional investors typically allocate 10-30% to PE. Individual investors mi
 
 Spread commitments across:
 
-Multiple vintage years (commit to 2-3 funds annually rather than concentrating in one year)
-
-Different strategies (buyout, growth, venture)
-
-**Various sectors and geographies**
-
-**Different manager sizes and styles**
+- Multiple vintage years (commit to 2-3 funds annually rather than concentrating in one year)
+- Different strategies (buyout, growth, venture)
+- Various sectors and geographies
+- Different manager sizes and styles
 
 This diversification smooths the J-curve and reduces manager-specific risk.
 
@@ -260,35 +238,31 @@ Rather than committing all at once, develop a multi-year pacing plan. Commit to 
 
 PE positions can't be easily rebalanced like public stocks. As distributions occur, develop plans for reinvesting proceeds to maintain target allocations.
 
-### Performance Benchmarking
+## Performance Benchmarking
 
 **Relevant Benchmarks**
 
 Common PE benchmarks include:
 
-**Cambridge Associates Private Equity Index**
-
-**Burgiss Private iQ Indices**
-
-**State Street Private Equity Index**
-
-**Public market equivalents (PME) comparing PE to S&P 500 returns**
+- Cambridge Associates Private Equity Index
+- Burgiss Private iQ Indices
+- State Street Private Equity Index
+- Public market equivalents (PME) comparing PE to S&P 500 returns
 
 Compare funds to appropriate benchmarks based on strategy and vintage year.
 
 **Key Metrics**
 
-**IRR:** Time-weighted return accounting for timing of cash flows
-
-**TVPI:** Total value (distributed + NAV) divided by paid-in capital
-
-**DPI:** Distributions divided by paid-in capital (measures actual cash returned)
-
-**RVPI:** Residual value (unrealized NAV) divided by paid-in capital
+- **IRR**: Time-weighted return accounting for timing of cash flows
+- **TVPI**: Total value (distributed + NAV) divided by paid-in capital
+- **DPI**: Distributions divided by paid-in capital (measures actual cash returned)
+- **RVPI**: Residual value (unrealized NAV) divided by paid-in capital
 
 Strong funds show top-quartile performance across multiple vintages, consistent DPI generation, and TVPI exceeding 2.0x.
 
-### Key Takeaways for Advisors
+---
+
+## Key Takeaways for Advisors
 
 Private equity offers clients access to a broader investment universe and potentially superior long-term returns. Success requires careful GP selection, proper portfolio construction, and clients who understand the commitment structure and illiquidity.
 
