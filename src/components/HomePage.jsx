@@ -25,8 +25,8 @@ export default function HomePage({ categories }) {
   return (
     <div className="home-page">
       <div className="home-hero">
-        <div className="home-hero-badge">Alternative Investments Knowledge Center</div>
-        <h1>Advisor Education Hub</h1>
+        <div className="home-hero-badge">Monark Markets</div>
+        <h1>Alts Hub</h1>
         <p>
           Your comprehensive resource for understanding alternative investments.
           Explore asset classes, learn about investment structures and processes,
