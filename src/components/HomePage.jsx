@@ -17,6 +17,11 @@ const categoryIcons = {
       <rect x="8" y="2" width="8" height="4" rx="1" ry="1" /><path d="M9 14l2 2 4-4" />
     </svg>
   ),
+  'manager-research': (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" /><path d="M11 8v6" /><path d="M8 11h6" />
+    </svg>
+  ),
 }
 
 export default function HomePage({ categories }) {
@@ -60,6 +65,7 @@ export default function HomePage({ categories }) {
                 {cat.id === 'fundamentals' && 'Core concepts every advisor needs to know about alternative investments'}
                 {cat.id === 'asset-classes' && 'Comprehensive tear sheets covering each major alternative asset class'}
                 {cat.id === 'process' && 'Step-by-step guidance through making and managing alternative investments'}
+                {cat.id === 'manager-research' && 'In-depth analysis and educational resources from leading alternative investment managers'}
               </p>
             </div>
           </div>

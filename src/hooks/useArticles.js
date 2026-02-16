@@ -61,7 +61,7 @@ export function useArticles() {
     }
 
     // Order categories
-    const categoryOrder = ['fundamentals', 'asset-classes', 'process']
+    const categoryOrder = ['fundamentals', 'asset-classes', 'process', 'manager-research']
     const orderedCategories = categoryOrder
       .map(id => categories[id])
       .filter(Boolean)

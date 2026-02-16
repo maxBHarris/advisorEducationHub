@@ -51,8 +51,10 @@ export default function Header({ articles, onToggleSidebar }) {
       </button>
       <Link to="/" className="header-brand">
         <div className="header-logo">
-          <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10 80 L10 35 L30 55 L50 15 L70 55 L90 35 L90 80" stroke="#0057FF" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+          <svg width="32" height="32" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 70 L40 20 L50 40 L60 20 L80 70 L70 70 L60 40 L50 60 L40 40 L30 70 Z" fill="#0057FF"/>
+            <path d="M50 40 L60 20 L100 70 L90 70 L60 35 Z" fill="#0057FF" opacity="0.7"/>
+            <path d="M20 70 L50 40 L60 20 L70 70 Z" fill="#0057FF" opacity="0.5"/>
           </svg>
         </div>
         <div>
