@@ -23,6 +23,12 @@ const categoryIcons = {
       <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" /><path d="M11 8v6" /><path d="M8 11h6" />
     </svg>
   ),
+  // Default icon for dynamically added categories
+  default: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+    </svg>
+  )
 }
 
 export default function Sidebar({ categories, isOpen, onClose }) {
@@ -52,7 +58,7 @@ export default function Sidebar({ categories, isOpen, onClose }) {
         <div key={cat.id} className={`sidebar-category ${collapsed[cat.id] ? 'collapsed' : ''}`}>
           <div className="sidebar-category-title" onClick={() => toggleCategory(cat.id)}>
             <span className="sidebar-category-icon">
-              {categoryIcons[cat.id] || categoryIcons.fundamentals}
+              {categoryIcons[cat.id] || categoryIcons.default}
             </span>
             {cat.title}
             <span className="sidebar-chevron">

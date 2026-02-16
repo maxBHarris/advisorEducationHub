@@ -23,6 +23,14 @@ StepStone Private Wealth Solutions has experienced significant growth, recently 
 
 ## Educational Offerings
 
+### Introduction to Private Markets
+
+Watch this comprehensive introduction to private markets investing and how StepStone is democratizing access to institutional-quality alternatives:
+
+<div class="video-embed">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HJn0Q_m3mms?si=wEZ6GbtVhpRNGjBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### On-Demand Continuing Education
 
 The StepStone Academy offers continuing education credits that financial professionals can earn by:

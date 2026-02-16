@@ -2,6 +2,7 @@ import { useMemo, useEffect, useState, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
 
 function slugify(text) {
   return text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim()
@@ -42,9 +43,18 @@ export default function ArticleView({ articles }) {
     return () => window.removeEventListener('scroll', onScroll)
   }, [id])
 
-  // Scroll to top on article change
+  // Scroll to article content on article change (skip header)
   useEffect(() => {
-    window.scrollTo({ top: 0 })
+    // Scroll to the article content, not the absolute top
+    const articleElement = document.querySelector('.article-content')
+    if (articleElement) {
+      const headerOffset = 80 // Account for fixed header
+      const elementPosition = articleElement.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+      window.scrollTo({ top: offsetPosition, behavior: 'instant' })
+    } else {
+      window.scrollTo({ top: 0, behavior: 'instant' })
+    }
   }, [id])
 
   const scrollToSection = useCallback((sectionId) => {
@@ -92,7 +102,10 @@ export default function ArticleView({ articles }) {
           <div className="article-body">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
               components={{
+                // Skip H1 headers - title is already displayed from frontmatter
+                h1: () => null,
                 h2: ({ children, ...props }) => {
                   const text = typeof children === 'string' ? children : children?.toString() || ''
                   const hId = slugify(text)
@@ -103,6 +116,27 @@ export default function ArticleView({ articles }) {
                   const hId = slugify(text)
                   return <h3 id={hId} className="section-heading" {...props}>{children}</h3>
                 },
+                // Custom iframe rendering with responsive wrapper
+                iframe: ({ node, ...props }) => {
+                  const src = props.src || ''
+                  // Check if it's a YouTube video
+                  const isYouTube = src.includes('youtube.com') || src.includes('youtu.be')
+
+                  if (isYouTube) {
+                    return (
+                      <div className="video-embed">
+                        <iframe {...props} allowFullScreen />
+                      </div>
+                    )
+                  }
+
+                  // For other iframes, render with some basic styling
+                  return (
+                    <div style={{ margin: '24px 0', borderRadius: '8px', overflow: 'hidden' }}>
+                      <iframe {...props} style={{ width: '100%', minHeight: '400px', border: 'none' }} />
+                    </div>
+                  )
+                }
               }}
             >
               {article.content}

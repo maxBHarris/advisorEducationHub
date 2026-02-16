@@ -22,6 +22,28 @@ const categoryIcons = {
       <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" /><path d="M11 8v6" /><path d="M8 11h6" />
     </svg>
   ),
+  // Default icon for any dynamically added categories
+  default: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+    </svg>
+  )
+}
+
+// Dynamic category descriptions
+const categoryDescriptions = {
+  'fundamentals': 'Core concepts every advisor needs to know about alternative investments',
+  'asset-classes': 'Comprehensive tear sheets covering each major alternative asset class',
+  'process': 'Step-by-step guidance through making and managing alternative investments',
+  'manager-research': 'In-depth analysis and educational resources from leading alternative investment managers'
+}
+
+function getCategoryDescription(categoryId) {
+  return categoryDescriptions[categoryId] || `Educational resources and articles about ${categoryId.replace(/-/g, ' ')}`
+}
+
+function getCategoryIcon(categoryId) {
+  return categoryIcons[categoryId] || categoryIcons.default
 }
 
 export default function HomePage({ categories }) {
@@ -30,8 +52,8 @@ export default function HomePage({ categories }) {
   return (
     <div className="home-page">
       <div className="home-hero">
-        <div className="home-hero-badge">Monark Markets</div>
-        <h1>Alts Hub</h1>
+        <div className="home-hero-badge">Powered by Monark</div>
+        <h1>Altruist Alts Hub</h1>
         <p>
           Your comprehensive resource for understanding alternative investments.
           Explore asset classes, learn about investment structures and processes,
@@ -57,15 +79,12 @@ export default function HomePage({ categories }) {
         <section key={cat.id} className="category-section">
           <div className="category-header">
             <div className="category-icon">
-              {categoryIcons[cat.id] || categoryIcons.fundamentals}
+              {getCategoryIcon(cat.id)}
             </div>
             <div>
               <h2 className="category-title">{cat.title}</h2>
               <p className="category-desc">
-                {cat.id === 'fundamentals' && 'Core concepts every advisor needs to know about alternative investments'}
-                {cat.id === 'asset-classes' && 'Comprehensive tear sheets covering each major alternative asset class'}
-                {cat.id === 'process' && 'Step-by-step guidance through making and managing alternative investments'}
-                {cat.id === 'manager-research' && 'In-depth analysis and educational resources from leading alternative investment managers'}
+                {getCategoryDescription(cat.id)}
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 ---
-title: "Understanding Liquidity"
+title: "Understanding Liquidity in Registered Funds"
 subtitle: "How liquidity works across different registered fund structures"
 category: "process"
 categoryTitle: "The Investment Process"

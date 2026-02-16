@@ -1,6 +1,6 @@
 /* ========================================
-   Monark Markets — Advisor Education Hub
-   Dark theme design system
+   Altruist Alts Hub — Powered by Monark
+   Modern design system
    ======================================== */
 
 :root {
@@ -11,15 +11,15 @@
   --bg-card-hover: #f5f8ff;
   --bg-elevated: #ffffff;
 
-  --accent: #0057FF;
+  --accent: #00A3A1;
   --accent-dim: rgba(0, 87, 255, 0.08);
   --accent-glow: rgba(0, 87, 255, 0.2);
-  --accent-hover: #0046cc;
+  --accent-hover: #008886;
 
   --text-primary: #141834;
   --text-secondary: #4a5568;
   --text-muted: #718096;
-  --text-accent: #0057FF;
+  --text-accent: #00A3A1;
 
   --border: rgba(20, 24, 52, 0.12);
   --border-accent: rgba(0, 87, 255, 0.3);
@@ -390,7 +390,7 @@ a:hover {
 .category-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, var(--accent), #003db3);
+  background: linear-gradient(135deg, var(--accent), #007d7b);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -546,14 +546,15 @@ a:hover {
 .article-content {
   flex: 1;
   min-width: 0;
-  padding: 12px 56px 36px;
+  padding: 16px 56px 36px;
   max-width: 820px;
 }
 
 .article-breadcrumb {
   font-size: 13px;
   color: var(--text-muted);
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  margin-top: 0px;
 }
 .article-breadcrumb a {
   color: var(--accent);
@@ -574,9 +575,9 @@ a:hover {
 .article-subtitle {
   font-size: 16px;
   color: var(--text-muted);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   line-height: 1.5;
-  padding-bottom: 12px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -658,6 +659,27 @@ a:hover {
   background: var(--accent-dim);
   border-radius: 0 var(--radius) var(--radius) 0;
   color: var(--text-secondary);
+}
+
+.article-body .video-embed {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  margin: 24px 0;
+  border-radius: var(--radius-lg);
+  background: var(--bg-secondary);
+  box-shadow: var(--shadow-md);
+}
+
+.article-body .video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: var(--radius-lg);
 }
 
 /* ========== ChatBot ========== */

@@ -1,21 +1,34 @@
-# How to Add New Articles to Alts Hub
+# How to Add New Articles to Altruist Alts Hub
 
-This guide explains how to add new educational articles to the Alts Hub platform.
+This guide explains how to add new educational articles to the Altruist Alts Hub platform.
 
 ## Quick Start
 
-Articles are automatically loaded from markdown (`.md`) files in the `/src/content/` directory. The system scans all subdirectories and loads articles based on their frontmatter metadata.
+Articles are automatically loaded from markdown (`.md`) files in the `/src/content/` directory. The system automatically:
+- Scans all subdirectories in `/src/content/`
+- Creates navigation sections based on folder names
+- Loads articles with their metadata from frontmatter
+- **Automatically hides the frontmatter** from the displayed content
+
+**Note:** The YAML frontmatter (the section between `---` markers) is required but is automatically stripped before displaying content to users.
 
 ## Step-by-Step Guide
 
-### 1. Choose a Category
+### 1. Choose or Create a Category
 
-Navigate to the appropriate category folder in `/src/content/`:
+Navigate to an existing category folder in `/src/content/`, or create a new one:
 
+**Existing categories:**
 - `fundamentals/` - Core concepts about alternative investments
 - `asset-classes/` - Specific asset class tear sheets (PE, RE, Infrastructure, etc.)
 - `process/` - Investment process and operational guidance
 - `manager-research/` - Manager profiles and educational resources
+
+**To create a new category:**
+Simply create a new folder in `/src/content/` (e.g., `tax-strategies/` or `compliance/`). The system will automatically:
+- Convert the folder name to a title (e.g., `tax-strategies` → "Tax Strategies")
+- Add it to the navigation and homepage
+- No code changes required!
 
 ### 2. Create a New Markdown File
 
@@ -35,14 +48,12 @@ avoid:
 
 ### 3. Add Frontmatter
 
-Every article must start with YAML frontmatter (metadata) between `---` markers:
+Every article must start with YAML frontmatter (metadata) between `---` markers. **This frontmatter is automatically hidden from users** - they will only see the content below it.
 
 ```markdown
 ---
 title: "Article Title"
 subtitle: "Brief description or tagline"
-category: "fundamentals"
-categoryTitle: "Fundamentals"
 order: 1
 ---
 ```
@@ -51,9 +62,11 @@ order: 1
 
 - `title` (required): The article's display title
 - `subtitle` (required): A brief description shown in article cards
-- `category` (required): Must match the folder name (fundamentals, asset-classes, process, manager-research)
-- `categoryTitle` (required): The display name for the category
-- `order` (required): Number to control article ordering within the category (lower numbers appear first)
+- `order` (optional, default: 99): Number to control article ordering within the category (lower numbers appear first)
+- `category` (optional): Override the folder-based category
+- `categoryTitle` (optional): Override the auto-generated category title
+
+**Note:** The `category` and `categoryTitle` fields are optional. If not specified, the system automatically uses the folder name.
 
 ### 4. Write Your Content
 
@@ -63,14 +76,14 @@ After the frontmatter, write your article content using standard Markdown syntax
 ---
 title: "Understanding Private Equity"
 subtitle: "An introduction to PE investment structures and strategies"
-category: "fundamentals"
-categoryTitle: "Fundamentals"
 order: 1
 ---
 
 ## Introduction
 
 Private equity (PE) is a form of alternative investment...
+
+**Note:** The frontmatter above will not be visible to users - only the content starting from "## Introduction" will be displayed.
 
 ## Key Concepts
 
@@ -111,6 +124,22 @@ The platform supports GitHub Flavored Markdown (GFM) including:
 - **Code blocks**: Triple backticks with optional language
 - **Tables**: Standard markdown table syntax
 - **Inline code**: Single backticks
+- **iframes**: Embed videos, forms, and interactive content (see below)
+
+### Embedding iframes
+
+You can embed interactive content directly in articles using HTML iframe tags:
+
+```html
+<!-- YouTube video (automatically wrapped in responsive container) -->
+<iframe src="https://www.youtube.com/embed/VIDEO_ID" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+
+<!-- Google Form -->
+<iframe src="https://docs.google.com/forms/d/e/FORM_ID/viewform" width="100%" height="500"></iframe>
+
+<!-- Other interactive content -->
+<iframe src="https://example.com/calculator" width="100%" height="600"></iframe>
+```
 
 ## Example Article Templates
 
@@ -120,8 +149,6 @@ The platform supports GitHub Flavored Markdown (GFM) including:
 ---
 title: "Private Credit"
 subtitle: "Direct lending and private debt investment strategies"
-category: "asset-classes"
-categoryTitle: "Asset Classes"
 order: 2
 ---
 
@@ -159,8 +186,6 @@ Key factors to evaluate...
 ---
 title: "Manager Selection Process"
 subtitle: "How to evaluate and select alternative investment managers"
-category: "process"
-categoryTitle: "The Investment Process"
 order: 3
 ---
 
@@ -189,26 +214,25 @@ Post-investment oversight...
 
 To add an entirely new category:
 
-1. Create a new folder in `/src/content/` (e.g., `risk-management/`)
-2. Add the category to the order array in `/src/hooks/useArticles.js`:
+1. **Create a new folder** in `/src/content/` (e.g., `risk-management/` or `tax-strategies/`)
+2. **Add markdown files** to the folder with proper frontmatter
+3. **Done!** The category will automatically appear in navigation and on the homepage
 
-```javascript
-const categoryOrder = ['fundamentals', 'asset-classes', 'process', 'manager-research', 'your-new-category']
-```
+**Optional customizations:**
+- To control category order, edit the `getCategoryOrder` function in `/src/hooks/useArticles.js`
+- To add a custom icon, add it to the `categoryIcons` object in `/src/components/HomePage.jsx` and `/src/components/Sidebar.jsx`
+- To add a custom description, add it to the `categoryDescriptions` object in `/src/components/HomePage.jsx`
 
-3. Add an icon for the new category in:
-   - `/src/components/HomePage.jsx` - in the `categoryIcons` object
-   - `/src/components/Sidebar.jsx` - in the `categoryIcons` object
-
-4. Add a description in `/src/components/HomePage.jsx` in the `category-desc` section
+The system provides sensible defaults for all of these, so customization is optional!
 
 ## Troubleshooting
 
 **Article not showing up?**
 - Check that frontmatter is properly formatted with `---` on separate lines
-- Ensure the `category` field matches the folder name exactly
 - Verify the file has a `.md` extension
+- Ensure `title` and `subtitle` fields are present in frontmatter
 - Check the browser console for any errors
+- Restart the dev server if files were added while it was running
 
 **Article appears in wrong order?**
 - Articles are sorted by the `order` field (lowest number first)

@@ -51,15 +51,16 @@ export default function Header({ articles, onToggleSidebar }) {
       </button>
       <Link to="/" className="header-brand">
         <div className="header-logo">
-          <svg width="32" height="32" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 70 L40 20 L50 40 L60 20 L80 70 L70 70 L60 40 L50 60 L40 40 L30 70 Z" fill="#0057FF"/>
-            <path d="M50 40 L60 20 L100 70 L90 70 L60 35 Z" fill="#0057FF" opacity="0.7"/>
-            <path d="M20 70 L50 40 L60 20 L70 70 Z" fill="#0057FF" opacity="0.5"/>
+          {/* Altruist Logo - Simplified teal version */}
+          <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="45" fill="#00A3A1"/>
+            <path d="M35 60 L42 35 L50 50 L58 35 L65 60" stroke="white" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+            <circle cx="50" cy="25" r="5" fill="white"/>
           </svg>
         </div>
         <div>
-          <div className="header-title">Alts Hub</div>
-          <div className="header-subtitle">by Monark Markets</div>
+          <div className="header-title">Altruist Alts Hub</div>
+          <div className="header-subtitle">Powered by Monark</div>
         </div>
       </Link>
       <div className="header-search" ref={searchRef}>

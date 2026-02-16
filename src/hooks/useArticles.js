@@ -1,11 +1,15 @@
 import { useMemo } from 'react'
 
 function parseFrontmatter(raw) {
-  const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/)
-  if (!match) return { meta: {}, content: raw }
+  // Normalize line endings to Unix format first (handle Windows \r\n)
+  const normalized = raw.replace(/\r\n/g, '\n').replace(/\r/g, '\n')
+
+  // Match YAML frontmatter between --- delimiters
+  const match = normalized.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/)
+  if (!match) return { meta: {}, content: normalized }
 
   const frontmatter = match[1]
-  const content = match[2]
+  let content = match[2].trim() // Trim to remove leading/trailing whitespace
   const meta = {}
 
   for (const line of frontmatter.split('\n')) {
@@ -18,9 +22,35 @@ function parseFrontmatter(raw) {
     meta[key] = val
   }
 
+  // Remove any duplicate H1 title from content if it matches the frontmatter title
+  if (meta.title) {
+    const h1Regex = new RegExp(`^#\\s+${meta.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\n`, 'i')
+    content = content.replace(h1Regex, '')
+  }
+
   return { meta, content }
 }
 
+// Helper function to convert folder name to title
+function folderToTitle(folderName) {
+  return folderName
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+
+// Helper function to get category order (for consistent display)
+function getCategoryOrder(categoryId) {
+  const orderMap = {
+    'fundamentals': 1,
+    'asset-classes': 2,
+    'process': 3,
+    'manager-research': 4
+  }
+  return orderMap[categoryId] || 999
+}
+
+// Dynamically import all markdown files from content directory
 const mdModules = import.meta.glob('/src/content/**/*.md', { eager: true, query: '?raw', import: 'default' })
 
 export function useArticles() {
@@ -28,46 +58,57 @@ export function useArticles() {
     const articles = []
     const categories = {}
 
+    // Process each markdown file
     for (const [path, raw] of Object.entries(mdModules)) {
       const { meta, content } = parseFrontmatter(raw)
       const filename = path.split('/').pop().replace('.md', '')
       const id = filename
 
+      // Extract folder name from path (e.g., /src/content/asset-classes/article.md -> asset-classes)
+      const pathParts = path.split('/')
+      const contentIndex = pathParts.indexOf('content')
+      const folderName = pathParts[contentIndex + 1]
+
+      // Use folder name as category if not specified in frontmatter
+      const category = meta.category || folderName
+      const categoryTitle = meta.categoryTitle || folderToTitle(folderName)
+
       const article = {
         id,
         title: meta.title || filename,
         subtitle: meta.subtitle || '',
-        category: meta.category || 'uncategorized',
-        categoryTitle: meta.categoryTitle || meta.category || 'Other',
+        category,
+        categoryTitle,
         order: meta.order || 99,
         content,
         searchText: (meta.title + ' ' + meta.subtitle + ' ' + content).toLowerCase(),
       }
       articles.push(article)
 
-      if (!categories[article.category]) {
-        categories[article.category] = {
-          id: article.category,
-          title: article.categoryTitle,
+      // Create category if it doesn't exist
+      if (!categories[category]) {
+        categories[category] = {
+          id: category,
+          title: categoryTitle,
           articles: [],
+          order: getCategoryOrder(category)
         }
       }
-      categories[article.category].articles.push(article)
+      categories[category].articles.push(article)
     }
 
-    // Sort articles within each category
+    // Sort articles within each category by their order
     for (const cat of Object.values(categories)) {
       cat.articles.sort((a, b) => a.order - b.order)
     }
 
-    // Order categories
-    const categoryOrder = ['fundamentals', 'asset-classes', 'process', 'manager-research']
-    const orderedCategories = categoryOrder
-      .map(id => categories[id])
-      .filter(Boolean)
-      .concat(
-        Object.values(categories).filter(c => !categoryOrder.includes(c.id))
-      )
+    // Sort categories by their predefined order, then alphabetically
+    const orderedCategories = Object.values(categories).sort((a, b) => {
+      if (a.order !== b.order) {
+        return a.order - b.order
+      }
+      return a.title.localeCompare(b.title)
+    })
 
     return { articles, categories: orderedCategories }
   }, [])
