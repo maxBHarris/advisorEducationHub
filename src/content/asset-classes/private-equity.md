@@ -18,6 +18,12 @@ PE has historically outperformed public markets over the long term, though with 
 
 For advisors, PE represents a way to give clients access to a broader universe of companies and potentially higher returns in exchange for illiquidity and higher minimums.
 
+## Introduction to Private Equity
+
+Watch this comprehensive introduction to private equity investing:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9S6NHmc2WhM?si=G5svDf1IOLTZPOQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Investment Structures and Vehicles
 
 **Traditional Closed-End Funds**
@@ -259,6 +265,99 @@ Compare funds to appropriate benchmarks based on strategy and vintage year.
 - **RVPI**: Residual value (unrealized NAV) divided by paid-in capital
 
 Strong funds show top-quartile performance across multiple vintages, consistent DPI generation, and TVPI exceeding 2.0x.
+
+## Top Partners
+
+Leading fund managers offering institutional-quality private equity strategies to individual investors:
+
+### Blackstone
+
+**BXPE - Blackstone Private Equity Strategies Fund**
+
+Blackstone is the world's largest alternative asset manager with over $1 trillion in assets under management. Their Private Equity Strategies Fund provides individual investors access to Blackstone's institutional private equity platform through an evergreen structure.
+
+**Key Highlights:**
+- **Strategy**: Diversified private equity portfolio with co-investments and secondaries
+- **Structure**: Interval Fund with quarterly redemption windows
+- **Minimum Investment**: Check with fund documentation for current minimums
+
+[Learn more about Blackstone's approach →](/article/blackstone-private-wealth)
+
+---
+
+### Apollo
+
+**Apollo S3 Private Markets - Secondaries**
+
+Apollo is a leading global alternative investment manager with over $650 billion in AUM, specializing in credit-oriented and opportunistic strategies across private markets.
+
+**Key Highlights:**
+- **Strategy**: Secondary market private equity investments
+- **Structure**: Interval Fund
+- **Minimum Investment**: Varies by share class
+
+[Learn more about Apollo's approach →](/article/apollo-private-wealth)
+
+---
+
+### KKR
+
+**K-PEC Private Equity - Class I & D**
+
+KKR is a global investment firm with $550+ billion in AUM and over 45 years of private equity experience. K-PEC provides access to KKR's private equity platform through a registered fund structure.
+
+**Key Highlights:**
+- **Strategy**: Diversified private equity including primary funds, co-investments, and secondaries
+- **Structure**: Interval Fund with quarterly liquidity
+- **Minimum Investment**: Class D accessible to all investors; Class I for accredited investors only
+- **Note**: Class I shares require accredited investor status
+
+[Learn more about KKR's approach →](/article/kkr-private-wealth)
+
+---
+
+### AMG Pantheon
+
+**AMG Pantheon Fund PPEX - Class I**
+
+AMG Pantheon combines AMG's distribution expertise with Pantheon's institutional private equity capabilities, offering a fund-of-funds approach to private markets access.
+
+**Key Highlights:**
+- **Strategy**: Diversified fund-of-funds approach across vintage years and strategies
+- **Structure**: Evergreen registered fund
+- **Minimum Investment**: Varies by share class
+
+[Learn more about AMG Pantheon's approach →](/article/amg-pantheon-private-wealth)
+
+---
+
+### JP Morgan Asset Management
+
+**JP Morgan Private Markets Fund**
+
+JP Morgan Asset Management, part of JPMorgan Chase with $2.5+ trillion in global AUM, provides private markets access through their dedicated private equity platform.
+
+**Key Highlights:**
+- **Strategy**: Diversified private equity portfolio construction
+- **Structure**: Registered fund with institutional backing
+- **Minimum Investment**: Check with fund documentation
+
+[Learn more about JP Morgan's approach →](/article/jpmorgan-private-wealth)
+
+---
+
+### Apollo
+
+**Apollo Aligned Alternatives - Private Markets**
+
+Apollo's Aligned Alternatives platform provides financial advisors and individual investors with access to Apollo's institutional-quality private markets expertise across multiple strategies.
+
+**Key Highlights:**
+- **Strategy**: Multi-strategy private markets exposure
+- **Structure**: Registered fund structure
+- **Minimum Investment**: Designed for individual investor access
+
+[Learn more about Apollo's approach →](/article/apollo-private-wealth)
 
 ---
 

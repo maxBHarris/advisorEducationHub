@@ -18,6 +18,12 @@ For investors, infrastructure offers three primary benefits: steady income strea
 
 For advisors, infrastructure provides portfolio diversification and income generation for clients seeking alternatives to bonds in a low-yield environment.
 
+## Introduction to Infrastructure
+
+Watch this comprehensive introduction to infrastructure investing:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r4qorNGHOSY?si=5II6uhG98z6nngMR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Investment Structures and Vehicles
 
 **Closed-End Infrastructure Funds**
@@ -301,6 +307,55 @@ Quality infrastructure funds deliver:
 - Net IRRs of 8-12% depending on strategy
 - Low volatility in NAV
 - Inflation-matching or inflation-beating returns
+
+## Top Partners
+
+Leading fund managers offering institutional-quality infrastructure strategies to individual investors:
+
+### Blackstone
+
+**BXINFRA - Blackstone Infrastructure Strategies Fund**
+
+Blackstone is one of the world's largest infrastructure investors with extensive experience across energy, transportation, and digital infrastructure assets globally.
+
+**Key Highlights:**
+- **Strategy**: Diversified infrastructure portfolio across core sectors
+- **Structure**: Interval Fund with quarterly redemption windows
+- **Focus**: Essential infrastructure with inflation-protected cash flows
+- **Minimum Investment**: Varies by share class
+
+[Learn more about Blackstone's approach →](/article/blackstone-private-wealth)
+
+---
+
+### Apollo
+
+**Apollo Infrastructure Company**
+
+Apollo brings its global investing expertise to infrastructure, focusing on assets with predictable cash flows and inflation protection characteristics.
+
+**Key Highlights:**
+- **Strategy**: Infrastructure investments across energy, transport, and utilities
+- **Structure**: Registered fund structure
+- **Focus**: Cash-generating essential infrastructure assets
+
+[Learn more about Apollo's approach →](/article/apollo-private-wealth)
+
+---
+
+### KKR
+
+**K-INFRA - Class I & D**
+
+KKR Infrastructure Fund provides access to KKR's institutional infrastructure platform through a diversified portfolio of essential assets.
+
+**Key Highlights:**
+- **Strategy**: Core and core-plus infrastructure with steady cash flows
+- **Structure**: Interval Fund
+- **Share Classes**: Class D for all investors, Class I for accredited investors
+- **Note**: Class I shares require accredited investor status
+
+[Learn more about KKR's approach →](/article/kkr-private-wealth)
 
 ---
 

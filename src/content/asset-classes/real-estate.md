@@ -18,6 +18,12 @@ Real estate offers three potential return sources: rental income (current yield)
 
 For advisors, private real estate provides portfolio diversification, inflation hedging, current income, and tangible asset backing that clients can understand intuitively.
 
+## Introduction to Real Estate
+
+Watch this comprehensive introduction to real estate investing:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9jK0QzYQOVo?si=HVIS1TRUKA7cfl1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Investment Structures and Vehicles
 
 **Closed-End Funds (Commingled Funds)**
@@ -388,6 +394,71 @@ Quality real estate funds deliver:
 - Core: 6-9% total returns, 1.3-1.5x equity multiples
 - Value-add: 11-15% IRRs, 1.7-2.0x multiples
 - Opportunistic: 15%+ IRRs, 2.0x+ multiples
+
+## Top Partners
+
+Leading fund managers offering institutional-quality real estate strategies to individual investors:
+
+### Blackstone
+
+**BREIT - Blackstone Real Estate Income Trust**
+
+Blackstone is the world's largest real estate investor with over $300 billion in real estate AUM globally. BREIT provides individual investors access to institutional-quality real estate through a non-traded REIT structure.
+
+**Key Highlights:**
+- **AUM**: $50+ billion in BREIT specifically
+- **Strategy**: Diversified portfolio of income-producing properties across sectors
+- **Structure**: Non-Traded REIT with monthly NAV
+- **Liquidity**: Monthly redemption requests subject to quarterly limits
+- **Minimum Investment**: Varies by share class
+
+[Learn more about Blackstone's approach →](/article/blackstone-private-wealth)
+
+---
+
+### Apollo
+
+**Apollo Realty Income Solutions - U.S. Real Estate**
+
+Apollo brings its credit and real estate expertise to provide income-focused real estate strategies for individual investors.
+
+**Key Highlights:**
+- **Strategy**: Income-generating real estate investments
+- **Structure**: Registered fund structure
+- **Focus**: U.S. real estate with emphasis on cash flow generation
+
+[Learn more about Apollo's approach →](/article/apollo-private-wealth)
+
+---
+
+### KKR
+
+**KREST REIT - Class D & I**
+
+KKR Real Estate Select Trust (KREST) provides access to KKR's institutional real estate platform through a diversified portfolio approach.
+
+**Key Highlights:**
+- **Strategy**: Diversified real estate across property types and geographies
+- **Structure**: Non-Traded REIT
+- **Share Classes**: Class D for all investors, Class I for accredited investors
+- **Note**: Class I shares require accredited investor status
+
+[Learn more about KKR's approach →](/article/kkr-private-wealth)
+
+---
+
+### JP Morgan Asset Management
+
+**JP Morgan REIT**
+
+JP Morgan Asset Management leverages JPMorgan Chase's global real estate capabilities to provide institutional real estate access.
+
+**Key Highlights:**
+- **Strategy**: Diversified institutional-quality real estate portfolio
+- **Structure**: REIT structure
+- **Backing**: JPMorgan Chase global resources and expertise
+
+[Learn more about JP Morgan's approach →](/article/jpmorgan-private-wealth)
 
 ---
 

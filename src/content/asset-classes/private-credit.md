@@ -18,6 +18,12 @@ For investors, private credit offers attractive yields (typically 8-12%) with lo
 
 For advisors, private credit provides clients with higher income than traditional fixed income, floating rate exposure during rising rate environments, and diversification from public credit markets.
 
+## Introduction to Private Credit
+
+Watch this comprehensive introduction to private credit investing:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EQSjVT-3gEI?si=oSiyDO3yq1sjOJRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Investment Structures and Vehicles
 
 **Closed-End Credit Funds**
@@ -320,6 +326,84 @@ Quality credit funds deliver:
 - Senior direct lending: 8-11% net returns, <2% annual defaults
 - Mezzanine: 12-15% net returns, 2-4% annual defaults
 - Consistent quarterly income with minimal principal impairment
+
+## Top Partners
+
+Leading fund managers offering institutional-quality private credit strategies to individual investors:
+
+### Blackstone
+
+**BCRED - Blackstone Private Credit BDC**
+
+Blackstone is the world's largest credit investor with over $350 billion in credit AUM. BCRED provides individual investors access to Blackstone's direct lending platform through a publicly-traded BDC structure.
+
+**Key Highlights:**
+- **Strategy**: Senior secured loans to U.S. middle-market companies
+- **Structure**: Business Development Company (BDC) with monthly NAV
+- **Minimum Investment**: Accessible through brokerage accounts
+- **Liquidity**: Daily trading on NYSE
+
+[Learn more about Blackstone's approach →](/article/blackstone-private-wealth)
+
+---
+
+### Apollo
+
+**Apollo Debt Solutions BDC - U.S. Direct Lending**
+
+Apollo is a leading credit-focused alternative asset manager with deep expertise in U.S. direct lending and credit structuring across market cycles.
+
+**Key Highlights:**
+- **Strategy**: Direct lending to middle-market borrowers
+- **Structure**: Business Development Company (BDC)
+- **Focus**: Senior secured floating rate loans
+
+[Learn more about Apollo's approach →](/article/apollo-private-wealth)
+
+---
+
+### Apollo
+
+**Apollo Asset Backed Credit Company - Asset-Backed Finance**
+
+Apollo's Asset Backed Credit Company focuses on asset-backed lending strategies, providing diversification within private credit through specialized collateral structures.
+
+**Key Highlights:**
+- **Strategy**: Asset-backed lending and specialty finance
+- **Structure**: Business Development Company (BDC)
+- **Focus**: Asset-secured lending opportunities
+
+[Learn more about Apollo's approach →](/article/apollo-private-wealth)
+
+---
+
+### Blackstone
+
+**BMACX - Blackstone Multi-Asset Credit Interval Fund**
+
+Blackstone's Multi-Asset Credit Fund provides diversified credit exposure across multiple credit strategies through an interval fund structure.
+
+**Key Highlights:**
+- **Strategy**: Diversified credit portfolio including direct lending, high yield, and opportunistic credit
+- **Structure**: Interval Fund with quarterly redemptions
+- **Minimum Investment**: Varies by share class
+
+[Learn more about Blackstone's approach →](/article/blackstone-private-wealth)
+
+---
+
+### Apollo
+
+**Apollo Diversified Credit Fund**
+
+Apollo's Diversified Credit Fund offers broad exposure to Apollo's credit platform across multiple strategies and sectors.
+
+**Key Highlights:**
+- **Strategy**: Multi-strategy credit approach
+- **Structure**: Registered fund structure
+- **Focus**: Diversified credit exposure
+
+[Learn more about Apollo's approach →](/article/apollo-private-wealth)
 
 ---
 
